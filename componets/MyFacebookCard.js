@@ -3,7 +3,7 @@ import { View, Text, Image, StyleSheet, Button, Linking ,TouchableOpacity} from 
 
 const MyFacebookCard = () => {
   return (
-    <View style={styles.container}>
+    <View style={styles.container2}>
         <View style={{backgroundColor:"black",
       marginBottom: 0,
       paddingHorizontal:29,
@@ -48,8 +48,8 @@ const MyFacebookCard = () => {
 };
 
 const styles = StyleSheet.create({
-  container: {
-    
+  container2: {
+    flex:1,
     paddingVertical:50,
     paddingHorizontal: 20,
     justifyContent: "center",
